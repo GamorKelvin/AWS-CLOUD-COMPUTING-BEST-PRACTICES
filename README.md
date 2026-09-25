@@ -149,6 +149,8 @@ This laboratory is intended for education purposes and infracture cloud planning
 CLF-C02 - AWS Certified Cloud Practitioner - English(ENU)
 
 LinkedIn:[www.linkedin.com/in/gamor-kelvin-7bb588303]
+Certification:<img width="200" height="200" alt="Gamorkelvin" src="https://github.com/user-attachments/assets/e87842c1-a535-4dcc-8fbc-e7ef12bb99b9" />
+[https://www.credly.com/badges/77edf306-c694-47f3-8d91-aaab6b32965a/]
 
 ---
 
