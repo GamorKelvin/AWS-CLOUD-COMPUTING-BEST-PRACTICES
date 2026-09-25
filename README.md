@@ -143,7 +143,7 @@ This laboratory is intended for education purposes and infracture cloud planning
 - **Aws console management:** [https://console.aws.amazon.com/]
 - **Putty:** [https://www.putty.org/]
 
-  # <img width="120" height="120" alt="WhatsApp Image 2026-09-25 at 7 00 21 AM" src="https://github.com/user-attachments/assets/2c2838c4-9e2c-4066-b4ba-87455c5bfa19" /> Author
+  # <img width="100" height="100" alt="WhatsApp Image 2026-09-25 at 7 00 21 AM" src="https://github.com/user-attachments/assets/2c2838c4-9e2c-4066-b4ba-87455c5bfa19" /> Author
 
 **Gamor Kelvin**\
 CLF-C02 - AWS Certified Cloud Practitioner - English(ENU)
