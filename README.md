@@ -81,6 +81,81 @@ An amazon EC2 public instance is a virtual cloud machine we configured to send a
 | 🔎 Curllocaalhost             | curl https://13.50.109.146`      |`Dispaly the content of a webpage(your html)    |                                                                       
 
 
+# 🐞 Problems Encountered & Solutions
+
+Documenting problems is an important part of the project.
+
+## Problem 1. Putty Logins
+After manually configuring the putty settings and wanted to connect it my ec2 instance; I notice"establish connection error. This was depending on the establishment butty the putty terminal and EC2 server configuration.
+
+One workaround used during this lab was:
+
+```bash
+echo -e "\n--- EC2 Health Check ---" && echo "User: $(whoami)" && echo "Dir:  $(pwd)" && echo "OS:   $(uname -sr)" && echo -n "Net:  " && (ping -c 1 google.com &>/dev/null && echo "Connected to Internet" || echo "No Internet") && echo -n "Sudo: " && (sudo whoami &>/dev/null && echo "Admin Access OK" || echo "No Admin Access")
+```
+
+This code was helped me  to quickly run  and direct dignose checks of the EC2 intance and also verify my username,current folder location, opertaing system version internet connectivity and administrator sudo previleges. This helped me in troubleshooting the issues and the putty server was restarted and started again to be able to have successfull connection.
+
+---
+# 💡 What I Learned
+
+Through this project, I learned how to create and configure a virtual environment for cloud practice.
+
+The most important concepts I learned include:
+
+### 1. NAT vs NAT Network
+
+A standard NAT configuration and a NAT Network serve different purposes.
+
+A NAT Network allows multiple VMs connected to the same virtual network to communicate with one another while providing network address translation for external connectivity.
+
+This makes it useful for building a multi-machine cybersecurity laboratory.
+
+### 2. Core Components of an AWS Virtual Private Network
+
+I learned how private virtual network  connect virtual machines to different types of networks and how network configuration affects communication between machines.
+
+### 3. Static IP Configuration
+
+I learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in EC2 instance.
+
+### 4. VM Snapshots
+
+I learned that a clean snapshot should be created **before performing risky or experimental activities**.
+
+This provides a known-good recovery point for future cloucd practition exercises.
+
+### 5. Documentation
+
+I learned that documenting commands, configuration, screenshots, problems, and solutions is an important part of a professional cloud management and  configuration project.
+
+---
+
+
+# 🔐 Security & Ethical Use
+
+This laboratory is intended for education purposes and infracture cloud planning.
+
+---
+
+# 🔗 Tools & Resources
+- Pdf Guide:** [https://docs.aws.amazon.com/pdfs/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02.pdf]
+- **Aws console management:** [https://console.aws.amazon.com/]
+- **Putty:** [https://www.putty.org/]
+
+  # 👤 Author
+
+**Gamor Kelvin**\
+CLF-C02 - AWS Certified Cloud Practitioner - English(ENU)
+
+LinkedIn:[www.linkedin.com/in/gamor-kelvin-7bb588303]
+
+---
+
+## 📌 Project Information
+
+**Program Name:** Cloud Practitioner at Amilitech | **Weeks:** 12 | **Project:** Configuaration and management of Aamzon S3 Bucket and EC2 instance | **Repository:** GitHub
+
 
 
   
