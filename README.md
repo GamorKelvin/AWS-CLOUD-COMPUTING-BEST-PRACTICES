@@ -45,7 +45,25 @@ Public ip makes access whiles private ip makes in internal access or grant acces
 <img width="2736" height="1824" alt="S3_03_Publicwebsite_GamorKelvin" src="https://github.com/user-attachments/assets/f40058ee-239b-4fc5-8fd5-80c56b7bbf8c" />
 
 # 🪜 Lab Setup Procedure for EC2 instance
-## Step 1. 
+## Step 1. Creation of an EC2 instance
+An ec2 instance are virtual computers in the cloud to run application without buying physical hardware.<img width="2736" height="1820" alt="1 Creation of EC2 instance" src="https://github.com/user-attachments/assets/0865478d-8215-4cf6-b180-b858a8c45e08" />
+
+## Step 2. Configuration of Security Groups
+Security group allows inbound and outbound traffic for the ec2 instance,particularly this means cloud pactictitioner has ability file access permission based on users role.
+<img width="2736" height="1824" alt="EC2_02_SecurityGroup_Gamorkelvin" src="https://github.com/user-attachments/assets/365a2924-ce40-45f2-9ad1-c474ff3481df" />
+
+## Step 3. SSH LOGIN
+This allows a user to securely connect to  a remote EC2 virtual server from his/her local computer using the secure shell (SSH) protocol
+<img width="2736" height="1824" alt="EC2_03_SSH_Login_Gamor Kelvin" src="https://github.com/user-attachments/assets/3a81709f-229c-4b5b-a916-d116ad9a2b53" />
+
+## Step 3. Apache Running 
+Running apache on an ec2 instance means you are turning that virtual server into live public web server. The apache server acts as the receptionist of for the ec2 instance created; It listens for incoming internet request (like someone typing uniform recource locator URL) and hand back the website files(HTML,images,code) to yours of the browser
+<img width="2736" height="1824" alt="EC2_04_Apache running_Gamor Kelvin" src="https://github.com/user-attachments/assets/7078825d-ca4f-4913-9356-c8fd8eda8e14" />
+
+
+
+
+
 
 
 
