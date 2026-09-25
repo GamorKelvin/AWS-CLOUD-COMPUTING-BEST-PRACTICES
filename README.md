@@ -115,7 +115,7 @@ This makes it useful for building a multi-machine cybersecurity laboratory.
 
 I learned how private virtual network  connect virtual machines to different types of networks and how network configuration affects communication between machines.
 
-### 3. Static IP Configuration
+### 3.IP Configuration
 
 I learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in EC2 instance.
 
@@ -134,7 +134,7 @@ I learned that documenting commands, configuration, screenshots, problems, and s
 
 # 🔐 Security & Ethical Use
 
-This laboratory is intended for education purposes and infracture cloud planning.
+This laboratory is intended for education purposes and with proper authorization
 
 ---
 
