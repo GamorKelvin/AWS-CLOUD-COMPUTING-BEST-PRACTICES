@@ -68,6 +68,8 @@ Running inside a PUTTY terminal helps you check if a web server is actively runn
 <img width="2736" height="1824" alt="EC2_06_CURLLOCAALHOST_GamorKelvin" src="https://github.com/user-attachments/assets/aca84374-4906-4f3b-a693-7e67b0c2bde1" />
 
 ## Step 7.Public Access
+An amazon EC2 public instance is a virtual cloud machine we configured to send and recieved traffic directly over the internet. It can deployed within a public subnet,possesses a public IPV4 address, and utilizes security group rules that allow external access for applicatiion web hosting or remote mangement
+<img width="2736" height="1824" alt="EC2_07_Publicaccess_Gamor Kelvin" src="https://github.com/user-attachments/assets/5eb6bb15-4723-4ab6-8bf4-f3b7401c4172" />
 
 
 
