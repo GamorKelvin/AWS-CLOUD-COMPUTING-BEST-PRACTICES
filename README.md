@@ -56,9 +56,24 @@ Security group allows inbound and outbound traffic for the ec2 instance,particul
 This allows a user to securely connect to  a remote EC2 virtual server from his/her local computer using the secure shell (SSH) protocol
 <img width="2736" height="1824" alt="EC2_03_SSH_Login_Gamor Kelvin" src="https://github.com/user-attachments/assets/3a81709f-229c-4b5b-a916-d116ad9a2b53" />
 
-## Step 3. Apache Running 
+## Step 4. Apache Running 
 Running apache on an ec2 instance means you are turning that virtual server into live public web server. The apache server acts as the receptionist of for the ec2 instance created; It listens for incoming internet request (like someone typing uniform recource locator URL) and hand back the website files(HTML,images,code) to yours of the browser
 <img width="2736" height="1824" alt="EC2_04_Apache running_Gamor Kelvin" src="https://github.com/user-attachments/assets/7078825d-ca4f-4913-9356-c8fd8eda8e14" />
+
+## Step 5.index.html
+  Files must be placed in the difficult document root dictory of the installed web server so it can handle incoming HTTP trafic<img width="2736" height="1824" alt="EC2_05_index html_Gamorkelvin" src="https://github.com/user-attachments/assets/554b4a0e-a05e-42b6-a165-154556b7d5d2" />
+
+## Step 6.CURLLOCAALHOST
+Running inside a PUTTY terminal helps you check if a web server is actively running locally on a specific EC2 instance and delivering webpage
+<img width="2736" height="1824" alt="EC2_06_CURLLOCAALHOST_GamorKelvin" src="https://github.com/user-attachments/assets/aca84374-4906-4f3b-a693-7e67b0c2bde1" />
+
+## Step 7.Public Access
+
+
+
+
+  
+
 
 
 
